@@ -1,0 +1,51 @@
+.main{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 30%;
+  height: 370px;
+}
+.reg-main{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 30%;
+  height: 70%;
+}
+.header{
+  font-size: 30px;
+}
+.form-control{
+  /* background-color: transparent !important; */
+  color: grey;
+}
+.form-control:focus{
+  background-color: #d8d6d6 !important;
+  border: 3px solid #28a745  !important;
+}
+.nav-btn{
+  text-align: center;
+  margin: 10px 0px; 
+  padding: 10px 0px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+.nav-btn:hover{
+  background-color: #d3d1d1;
+  transition: 0.5s;
+  color: #4250a1;
+}
+.errorMsg{
+  text-align: center;
+  background-color: #e29393;
+  font-size: 14px;
+  color: #8f5050;
+  margin-bottom: 5px;
+}
